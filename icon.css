@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to right,#4d29cf,#be2e93)
+
+}
+
+.pertama {
+    background: linear-gradient(to right,#4d29cf,#be2e93)
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.foto-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.nama {
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+}
+p {
+    color: #555;
+    margin: 5px 0;
+}
+
+.informasi {
+    margin-top: 60px;
+}
+
+.informasi h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.social-icons a {
+    background: linear-gradient(to right,#4d29cf,#be2e93)
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ece8e8;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    color: #333;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.social-icons a:hover {
+    background-color: #be2e93;
+    color: #fff;
+}
